@@ -1,0 +1,79 @@
+/* Dark background with centered layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+}
+
+/* Card container */
+.main {
+  background-color: #2a2a40;
+  width: 380px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+/* Title styles */
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.highlight {
+  color: #00ffcc;   /* bright aqua/teal */
+}
+h4 {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 0.95rem;
+  color: #bbb;
+}
+.accent {
+  color: #ff4d6d;   /* pink accent */
+  font-weight: bold;
+}
+
+/* Button styling */
+.btn {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #00ffcc, #0099ff);
+  color: #1e1e2f;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 255, 200, 0.4);
+}
+
+/* Password display boxes */
+.display-password {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+  justify-content: center;
+}
+#display1, #display2 {
+  background-color: #33334d;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00ffcc;
+  font-weight: bold;
+  font-family: monospace;
+}
